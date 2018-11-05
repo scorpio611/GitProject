@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Change</title>
+</head>
+<body>
+<form>
+ Amount<input type="text" id="amount">
+    <br><br>
+    From Currency
+    <select id="cr1">
+        <option value="USD" selected>USD</option>
+        <option value="EUR" selected>EUR</option>
+    </select>
+    <br><br>
+    To Currency
+    <select id="cr2">
+        <option value="USD" selected>USD</option>
+        <option value="EUR" selected>EUR</option>
+    </select>
+    <br><br>
+    <button type="button" onclick="currency()">Convert</button>
+    <br>
+    <p id="result">Result</p>
+
+    <script src="currency.js"></script>
+</form>
+</body>
+</html>
