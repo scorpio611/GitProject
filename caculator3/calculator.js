@@ -6,10 +6,10 @@ function calculator(click_id) {
         result = parseFloat(n1) + parseFloat(n2);
         document.getElementById("result").innerText = "Result: "+result;
     }
-else if(click_id=="sub")document.getElementById("sub").onclick = function() {
+else if(click_id=="sub") {
         result = parseFloat(n1) - parseFloat(n2);
         document.getElementById("result").innerText = "Result: "+result;
-    };
+    }
 
     else if(click_id=="multi") {
         result= parseFloat(n1) * parseFloat(n2);
