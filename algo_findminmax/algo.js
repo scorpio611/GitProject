@@ -23,12 +23,12 @@ for(var i=0; i<100; ++i){
 function dispArr(arr) {
     for (var i = 0; i < arr.length; ++i) {
         document.write(arr[i] + " ");
-        if(i%10==9){
-            document.write("\n");
+        if(i%10===0){
+            document.write("<br>");
         }
     }
-    if(i%10!=0){
-        document.write("\n");
+    if(i%10!==0){
+        document.write("<br>");
     }
 }
 var minValue = findMin(nums);
