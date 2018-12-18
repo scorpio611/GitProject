@@ -1,33 +1,4 @@
 
-/*function isPrime(number){
-    if(number==3 || number==2){
-        return true;
-    }
-    else{
-        for(var i=3;i<number;i++){
-
-        if(number % i === 0 || number % (i - 1) === 0){
-            return false;
-        }
-        else {
-            return true;
-        }
-        }
-    }
-
-}
-
-function main() {
-    var valNum = prompt("Enter number: ");
-    if(isPrime(valNum)){
-        document.write(valNum+" is prime");
-    }
-    else {
-        document.write(valNum+" is not prime");
-    }
-
-}
-main();*/
 var result = "";
 function isPrime(){
     var i,j,count;
