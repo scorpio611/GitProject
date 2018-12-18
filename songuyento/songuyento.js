@@ -11,13 +11,10 @@ while (count<numbers) {
                 break;
             }
         }
-
              if(grow===0 && N!==2){
                  count++;
                  temp += N+" ";
              }
-
-
     }
     document.write(temp);
 }
