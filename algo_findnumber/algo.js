@@ -20,11 +20,11 @@ function dispArr(array) {
     }
 }
 
-var nums = [];
+var numbers = [];
 for(var i=0; i<100; ++i){
-    nums[i] = Math.floor(Math.random() * 101);
+    numbers[i] = Math.floor(Math.random() * 101);
 }
 
 var index = parseInt(prompt("Enter a value to search for:"));
-dispArr(nums);
-findNumber(nums, index);
+dispArr(numbers);
+findNumber(numbers, index);
