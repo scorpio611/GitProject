@@ -14,6 +14,5 @@ function searchword() {
         if(count!=1){
             document.getElementById("result").innerText = "Không tìm thấy từ "+word;
     }
-
     }
 }
