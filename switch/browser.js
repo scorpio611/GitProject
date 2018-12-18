@@ -16,7 +16,7 @@ function bai1() {
 }
 
 function bai2() {
-    var a = prompt('a?','');
+    var number_a = prompt('Nhap a?','');
     switch (a) {
         case(0):
             alert(0);
